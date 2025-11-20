@@ -40,7 +40,7 @@ double LinearRoot(double a, double b) ////немає throw/noexcept в сигнатурі
 }
 
 // 2
-//з порожньою специфікацією throw()/noexcept
+//з порожньою специфікацією nothrow/noexcept
 double LinearRootNoThrow(double a, double b) noexcept
 {
     if (a == 0)
